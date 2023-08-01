@@ -1,19 +1,14 @@
-# mock-premier-league-api
+# Tobams User Management
 
 ## About
-An API for serving the latest scores of fixtures of matches in a Mock Premier League
+The API that serves as the back-end for a user management system.
 
-Admins and Users can:
-* Register (Registering an Admin can only be done by another admin. Default admin is created on startup)
+Users can:
+* Register
 * Login
 
-Admins can:
-* Create, Edit and Delete Teams
-* Create, Edit and Delete Fixtures
-
-Anyone can:
-* View Teams and search
-* View Fixtures and search
+Logged in Users can:
+* View Dashboard
 
 ## Tools/Stack
 
@@ -26,7 +21,7 @@ Anyone can:
 ## Setup
 * Copy keys present in `.env.example` file into `.env` file and put in values
 
-* If you have mongo or redis installed locally you can run the server using `yarn dev` or run `yarn build` then `yarn start`
+* If you have mongo or redis installed locally you can run the server using `npm run dev` or run `npm run build` then `npm run start`
 
 * You can also use the `docker-compose up` command to spin up the server along with a mongo and redis database
 
@@ -36,8 +31,4 @@ Anyone can:
 
 ## Docs
 
-https://documenter.getpostman.com/view/19108910/2s83zjsiiQ
-
-## API
-
-https://mock-premier-league-api.herokuapp.com
+https://documenter.getpostman.com/view/17011910/2s9XxvRtvL
