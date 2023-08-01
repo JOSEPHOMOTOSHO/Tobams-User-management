@@ -1,0 +1,21 @@
+{
+  "env": "development",
+  "port": 3001,
+  "baseUrl": "",
+  "mongoUrl": "",
+  "redisUrl": "",
+  "jwtSecret": "",
+  "logDir":"",
+  "admin": {
+    "username": "",
+    "password": ""
+  },
+  "rateLimiter": {
+    "allowedRequestsInWindow": "",
+    "requestWindowInSeconds": "",
+    "retryAfterInSeconds": ""
+  },
+  "cache": {
+    "ttlInDays": ""
+  }
+}
